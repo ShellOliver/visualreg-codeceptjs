@@ -1,2 +1,3 @@
 node_modules
 output/visual-regression/test/*
+.npmrc

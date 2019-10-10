@@ -1,14 +1,17 @@
 {
-  "name": "visual",
+  "name": "@shelloliver/visualreg-codeceptjs",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "lib/compareScreenShot.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "license": "MIT",
   "dependencies": {
-    "@babel/core": "^7.6.2",
-    "@babel/node": "^7.6.2",
+    "pixelmatch": "^5.1.0"
+  },
+  "devDependencies": {
     "chai": "^4.2.0",
     "codeceptjs": "^2.3.2",
-    "pixelmatch": "^5.1.0",
     "puppeteer": "^1.20.0"
   },
   "scripts": {

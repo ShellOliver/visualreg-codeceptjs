@@ -4,7 +4,6 @@ Feature('phaser movement');
 
 Scenario('test something', async (I) => {
     I.amOnPage('https://github.com/Codeception/VisualCeption');
-    I.see('GitHub');
-    I.compareScreenShot('zomeimage')
+    const output = await I.compareScreenShot('zomeimage')
     assert.equal(output, 0)
 });
