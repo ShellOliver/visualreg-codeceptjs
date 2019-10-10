@@ -4,7 +4,7 @@
     "chai": "^4.2.0",
     "codeceptjs": "^2.3.2",
     "puppeteer": "^1.20.0",
-    "@shelloliver/visualreg-codeceptjs": "file:../"
+    "visualreg-codeceptjs": "file:../"
   },
   "scripts": {
     "start": "codeceptjs run --steps"
