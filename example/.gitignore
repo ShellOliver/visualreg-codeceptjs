@@ -1,0 +1,3 @@
+output/test
+output/diff_*
+output/*.failed.png
